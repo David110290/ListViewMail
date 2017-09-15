@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txtMail"
+        android:layout_width="567dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGris"
+        android:textSize="20sp"
+        tools:text="@string/email" />
+
+    <TextView
+        android:id="@+id/txtRemitente"
+        android:background="@color/colorGris"
+        android:layout_width="567dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        tools:text="@string/remitente" />
+
+    <TextView
+        android:id="@+id/txtAsunto"
+        android:background="@color/colorGris"
+        android:layout_width="567dp"
+        android:layout_height="wrap_content"
+        tools:text="@string/asunto"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtMensaje"
+        android:layout_width="555dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorGris"
+        android:textSize="16sp"
+        tools:text="@string/msj"
+        android:layout_weight="0.58" />
+
+</LinearLayout>

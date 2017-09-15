@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mail</string>
+    <string name="refrescar">Refrescar</string>
+    <string name="salir">Salir</string>
+    <string name="atras">Atras</string>
+    <string name="email">Email:</string>
+    <string name="remitente">Remitente:</string>
+    <string name="asunto">Asunto:</string>
+    <string name="msj">Mensaje:</string>
+</resources>
